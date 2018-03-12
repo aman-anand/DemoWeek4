@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Demo App W4</string>
+    <string name="alert_success">Success</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_stop">Stop!!</string>
+    <string name="alert_toast">you pressed ok!</string>
+    <string name="alert">Alert</string>
+    <string name="yes">Yes</string>
+    <string name="confirm">Confirmation</string>
+    <string name="No">NO</string>
+    <string name="server_xml">server Xml</string>
+    <string name="local_xml">Local Xml</string>
+    <string name="json">Json</string>
+    <string name="google_map">Google Map</string>
+    <string name="multimedia">Multimedia</string>
+    <string name="btn_json_obj_request">Server Json</string>
+    <string name="btn_json_array_request">Local Json</string>
+    <string name="response">Response:</string>
+    <string name="clear_response">clear Response</string>
+    <string name="error_internet">Internet Not Available, Please Connect..</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="view_map">View Map</string>
+    <string name="tourist_places">Tourist Places</string>
+    <string name="inbuilt_camera">Inbuilt Camera Gallery</string>
+    <string name="custom_camera">Custom Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="title_activity_tabbed">Tabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="take_photo">Take Photo</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

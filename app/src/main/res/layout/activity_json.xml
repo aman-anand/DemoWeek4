@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin001"
+    android:paddingLeft="@dimen/activity_horizontal_margin001"
+    android:paddingRight="@dimen/activity_horizontal_margin001"
+    android:paddingTop="@dimen/activity_vertical_margin001"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnServerJson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_json_obj_request" />
+
+    <Button
+        android:id="@+id/btnLocalJson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_json_array_request" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_response"
+        android:enabled="false"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/response" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/msgResponse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="" />
+    </ScrollView>
+
+
+</LinearLayout>
